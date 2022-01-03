@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 h1 {
@@ -14,21 +15,28 @@ section {
   display: flex;
 }
 
-.welcome-info {
-  flex: 1;
-}
-
-.welcome-img {
-  flex: 1;
+.half-width {
   padding-left: 5%;
+  width: 50%;
 }
 
-.welcome-img img {
+.half-width img {
   width: 100%;
 }
 
 .link-button {
   text-decoration: none;
-  background-color: orange;
+  background-image: linear-gradient(orange, tomato);
   padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+
 }
+
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+
